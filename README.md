@@ -1,4 +1,4 @@
-# YaMDb(docker-compose)
+# YaMDb ( docker-compose )
 
 
 ## Описание: 
