@@ -1,6 +1,7 @@
 import os
 import csv
 
+from django.contrib.auth import get_user_model
 from django.core.management.base import BaseCommand
 from django.conf import settings
 
@@ -13,9 +14,9 @@ from reviews.models import (
     Review,
 )
 
-from users.models import User
 
 PATH = os.path.join(settings.BASE_DIR, 'static', 'data')
+User = get_user_model()
 
 FILE_TO_TABLE = {
     'users.csv': User,
