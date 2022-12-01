@@ -69,3 +69,8 @@ python manage.py loaddata <DATA BASE>
 При необходимости возможно импортировать тестовые данные:
 ```
 docker-compose exec web python manage.py loaddata fixtures.json
+```
+### Автор проекта
+Шалаева Елизавета
+
+#### Подробную документацию в формате ReDoc можно посмотреть по [ссылке](http://127.0.0.1:8000/redoc/) после запуска сервера с проектом.
